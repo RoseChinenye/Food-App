@@ -1,4 +1,4 @@
-@media only screen and (max-width:767px){
+@media only screen and (min-width:324px) and (max-width:767px){
     html{
         overflow-x: hidden;
     }
@@ -266,6 +266,129 @@ nav{
 .blog-content a{
     width: 79.13px;
     height: 20.97px;
+}
+.footer-section{
+    background:#FAFAFA;
+    width:100%;
+    padding:7% 0 2% 10%;
+
+}
+.top-footer{
+    display:flex;
+    flex-direction:column;
+}
+hr{
+    margin: 10% 0 5% 0;
+}
+.footer-logo{
+    margin: -46% 30% 10% 0;
+}
+.columns {
+    display: flex;
+    margin-bottom: 8vh;
+}
+
+.column2 {
+    margin-left: 25%;
+}
+.social-media{
+    width: 35%;
+    float:left;
+    margin: -6% 10% 0 0;
+}
+.social-media a{
+    height: 32px;
+    width:32px;
+    padding-top:5%;
+}
+}
+
+@media only screen and (max-width:325px){
+    html{
+        overflow-x: hidden;
+    }
+body{
+    width:100%; 
+    overflow-x:hidden;
+}
+.description-section p {
+    width: 300px;
+}
+.description-section button{
+    display:none;
+}
+.description-section a{
+    margin: 33% 5% 0% 0%;
+}
+.inst-orders{
+    display:block;
+}
+.inst-orders input {
+    width: 265px;
+    height: 44px;
+}
+.description-section img {
+    margin: 7% 7%;
+}
+.menu-section{
+    height: 1270px;
+}
+.menu-categories{
+    width: 95%;
+    margin: 7% 2% 10% 0;
+}
+.single-menu {
+    width: 133.86px;
+    height: 260px;
+    margin:1vh;
+}
+.single-menu img{
+    height: 106px;
+    width: 133.86px;
+}
+.menu-column{
+    width:70%;
+}
+.right-content p{
+    margin: 0 7%;
+}
+.all-dots {
+    margin: -8% 39%;
+}
+.blog-section{
+    height: 292vh;
+}
+.section-title p{
+    width: 280px;
+}
+.blogs{
+    padding-top:40px;
+}
+.blogs-column{
+    width: 100%;
+}
+.blog-img{
+    width: 297px;
+    height: 196px;
+}
+.blog-img .first-img, .blog-img .second-img {
+    width: 100%;
+    height: 100%;
+    margin: 9% -3%;
+}
+.blog-img .last-img{
+    width: 100%;
+    margin-left: -11%;
+}
+.blog-content h5{
+    width: 200px;
+    height: 24.79px;
+    margin-bottom: 12%;
+
+}
+.blog-content p{
+    width: 220px;
+    height: 49.95px;
 }
 .footer-section{
     background:#FAFAFA;
