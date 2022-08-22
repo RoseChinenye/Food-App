@@ -65,6 +65,7 @@ ul li {
     color: #666666;
 }
 
+
 .navlinks a:hover {
     color: #DA3743;
     padding: 0.5rem;
@@ -125,14 +126,17 @@ nav > button{
 .burger{
     display: none;
     cursor: pointer;
+    margin: 0 -24vh 0 -24vh;
 }
 
-.burger div{
-    width: 25px;
+.bar{
+    display: block;
+    width:25px;
     height:3px;
-    background-color: #666666;
-    margin: 5px;
-    transition: all 0.3s ease;
+    margin:5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #4D4D4D;
 }
 .description-section{
     height:650px;
@@ -168,6 +172,29 @@ nav > button{
 
 .inst-orders{
     display:none;
+}
+.inst-orders p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.inst-orders input{
+    padding: 15px 16px;
+    width: 342px;
+    height: 54px;
+    outline:none;
+    color:#B5B5BD;
+    font-size:14px;
+    background-color: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 6px;
+    margin-left: 10%;
 }
 
 .description-section button{
@@ -278,6 +305,20 @@ nav > button{
     font-style: normal;
     line-height: 160%;
 }
+.single-menu .carts{
+    display:none;
+    background: #DA3743;
+    border-radius: 10px;
+    width: 32px;
+    height: 32px;
+    float:right;
+}
+.single-menu .carts a{
+    text-decoration:none;
+    font-size:20px;
+    color:#FFF;
+    padding:3px;
+}
 
 .single-menu .menu-content h5{
     font-weight: 700;
@@ -321,6 +362,7 @@ nav > button{
     background:rgba(218, 55, 67, 0.15);
 }
 .testimonials{
+    display:none;
     background:#FFF;
     box-shadow: 0px 8px 16px -6px rgba(24, 39, 75, 0.08);
     border-radius: 12px;
@@ -408,7 +450,7 @@ nav > button{
     border-radius: 50%;
     cursor: pointer;
 }
-.dots.active{
+.active{
     background: #DA3743;
 }
 .blog-section{
@@ -553,8 +595,11 @@ hr{
     letter-spacing: 0.004em;
     color: #1A1A1A;
 }
+.columns{
+    display:flex;
+}
 .column2 {
-    margin-left: 7%;
+    margin-left: 50%;
 }
 .footer-navlinks a{
     font-family: 'Lato';
@@ -586,26 +631,4 @@ hr{
     text-align: center;
     padding-top:10%;
     border-radius:50%;
-}
-@keyframes navLinkFade{
-    from{
-      opacity:0;
-      transform: translateX(50px);
-    }
-    to{
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-  
-  .toggle .line1{
-    transform: rotate(-45deg) translate(-5px,6px);
-  }
-  
-  .toggle .line2{
-    opacity: 0;
-  }
-  
-  .toggle .line3{
-    transform: rotate(45deg) translate(-5px,-6px);
 }
