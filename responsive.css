@@ -1,6 +1,5 @@
-/*
-@media only screen and (min-width:324px) and (max-width:767px){
-    html{
+@media only screen and (max-width:767px){
+html{
         overflow-x: hidden;
     }
 body{
@@ -52,6 +51,7 @@ nav{
 
 .burger{
     display: block;
+    margin: 0 -24vh 0 -19vh;
 }
 .burger.active .bar:nth-child(2){
     opacity: 0;
@@ -61,6 +61,9 @@ nav{
 }
 .burger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
+}
+.fa-shopping-cart {
+    margin-top: 1vh;
 }
 .description-section{
     background: #DA3743;
@@ -83,11 +86,14 @@ nav{
     line-height: 17.4px;
     color: #FFFFFF;
     opacity: 70%;
-    width: 309px;
+    width: 300px;
     height: 55px;
 }
 .description-section button{
     display:none;
+}
+.description-section a{
+    margin: 33% 5% 0% 0%;
 }
 .inst-orders{
     display:block;
@@ -96,11 +102,11 @@ nav{
     width: 290.28px;
     height: 289.48px;
     border: none;
-    margin: 7% 15% 0% 0%;
+    margin: 7% 7%;
 }
 .menu-section{
     background:#FFF;
-    height: 1400px;
+    height: 1270px;
 }
 .menu-section h3{
     padding-top:30%;
@@ -110,8 +116,8 @@ nav{
 }
 .menu-categories{
     height: 46px;
-    width: 80%;
-    margin: 7% 10% 10% 10%;
+    width: 95%;
+    margin: 7% 2% 10% 0;
 }
 .menu-categories a{
     margin: 10px 2px;
@@ -126,7 +132,12 @@ nav{
 .single-menu .menu-content h5, .single-menu .menu-content h4 {
     font-size: 14px;
 }
-.single-menu .menu-content p {
+.single-menu{
+    width: 133.86px;
+    height: 260px;
+    margin:1vh;
+}
+.menu-content p {
     font-size: 10px;
 }
 .single-menu .carts{
@@ -135,8 +146,8 @@ nav{
     margin-top: -1vh;
 }
 .single-menu img{
-    width: 163.86px;
-    height: 123px;
+    height: 106px;
+    width: 133.86px;
 }
 .menus {
     width:20%;
@@ -144,7 +155,7 @@ nav{
     justify-content: space-between
 }
 .menu-column{
-    width:80%;
+    width:70%;
     margin-left: -2vh;
     display:flex;
     justify-content: space-between;
@@ -204,17 +215,17 @@ nav{
     height: 59px;
     font-size:12px;
     float:none;
-    margin:0 13%;
+    margin: 0 7%;
 }
 .testimonials .quote{
     margin-left:84%;
 }
 .all-dots {
-    margin: -8% 40%;
+    margin: -8% 39%;
 }
 .blog-section{
     width:100%;
-    height: 292vh;
+    height: 280vh;
 }
 .section-title h2{
     margin-top:15%;
@@ -223,7 +234,7 @@ nav{
     font-size:24px;
 }
 .section-title p{
-    width: 343px;
+    width: 280px;
     height: 44px;
     font-size:14px;
     margin: 5% 7%;
@@ -232,7 +243,7 @@ nav{
     padding-top:40px;
 }
 .blogs-column{
-    width: 343px;
+    width: 100%;
     height: 436px;
     margin-bottom:5vh;
 }
@@ -240,9 +251,14 @@ nav{
     width: 297px;
     height: 196px;
 }
-.blog-img .last-img{
-    margin-top: 28px;
+.blog-img .first-img, .blog-img .second-img {
     width: 100%;
+    height: 100%;
+    margin: 9% -10%;
+}
+.blog-img .last-img{
+    width: 100%;
+    margin-left: -11%;
 }
 .content-title{
     margin-top:10vh;
@@ -256,132 +272,6 @@ nav{
     height: 19px;
 }
 .blog-content h5{
-    width: 277.56px;
-    height: 24.79px;
-
-}
-.blog-content p{
-    width: 281.3px;
-    height: 41.95px;
-}
-.blog-content a{
-    width: 79.13px;
-    height: 20.97px;
-}
-.footer-section{
-    background:#FAFAFA;
-    width:100%;
-    padding:7% 0 2% 10%;
-
-}
-.top-footer{
-    display:flex;
-    flex-direction:column;
-}
-hr{
-    margin: 10% 0 5% 0;
-}
-.footer-logo{
-    margin: -46% 30% 10% 0;
-}
-.columns {
-    display: flex;
-    margin-bottom: 8vh;
-}
-
-.column2 {
-    margin-left: 25%;
-}
-.social-media{
-    width: 35%;
-    float:left;
-    margin: -6% 10% 0 0;
-}
-.social-media a{
-    height: 32px;
-    width:32px;
-    padding-top:5%;
-}
-}
-*/
-@media only screen and (max-width:767px){
-    html{
-        overflow-x: hidden;
-    }
-body{
-    width:100%; 
-    overflow-x:hidden;
-}
-.description-section p {
-    width: 300px;
-}
-.description-section button{
-    display:none;
-}
-.description-section a{
-    margin: 33% 5% 0% 0%;
-}
-.inst-orders{
-    display:block;
-}
-.inst-orders input {
-    width: 265px;
-    height: 44px;
-}
-.description-section img {
-    margin: 7% 7%;
-}
-.menu-section{
-    height: 1270px;
-}
-.menu-categories{
-    width: 95%;
-    margin: 7% 2% 10% 0;
-}
-.single-menu {
-    width: 133.86px;
-    height: 260px;
-    margin:1vh;
-}
-.single-menu img{
-    height: 106px;
-    width: 133.86px;
-}
-.menu-column{
-    width:70%;
-}
-.right-content p{
-    margin: 0 7%;
-}
-.all-dots {
-    margin: -8% 39%;
-}
-.blog-section{
-    height: 292vh;
-}
-.section-title p{
-    width: 280px;
-}
-.blogs{
-    padding-top:40px;
-}
-.blogs-column{
-    width: 100%;
-}
-.blog-img{
-    width: 297px;
-    height: 196px;
-}
-.blog-img .first-img, .blog-img .second-img {
-    width: 100%;
-    height: 100%;
-    margin: 9% -3%;
-}
-.blog-img .last-img{
-    width: 100%;
-    margin-left: -11%;
-}
-.blog-content h5{
     width: 200px;
     height: 24.79px;
     margin-bottom: 12%;
@@ -390,6 +280,10 @@ body{
 .blog-content p{
     width: 220px;
     height: 49.95px;
+}
+.blog-content a{
+    width: 79.13px;
+    height: 20.97px;
 }
 .footer-section{
     background:#FAFAFA;
