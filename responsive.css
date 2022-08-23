@@ -16,7 +16,7 @@ nav{
     height:64px;
 }
 .logo{
-    margin: -3vh 0 0 -38vh;
+    margin: -3vh 0 0 -26vh;
 }
 .fa-shopping-cart {
     margin-top: 0.5vh;
@@ -51,7 +51,7 @@ nav{
 
 .burger{
     display: block;
-    margin: 0 -25vh 0 -10vh;
+    margin: 0 -31vh 0 -10vh;
 }
 .burger.active .bar:nth-child(2){
     opacity: 0;
@@ -151,7 +151,7 @@ nav{
     justify-content: space-between
 }
 .menu-column{
-    width:80%;
+    width:100%;
     margin-left: -1vh;
     display:flex;
     justify-content: space-between;
