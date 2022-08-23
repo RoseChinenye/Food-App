@@ -121,7 +121,7 @@ nav{
     margin: 7% 0% 10% 10%;
 }
 .menu-categories a{
-    margin: 10px 2px;
+    margin: 30px 2px;
 }
 .single-menu {
     width: 163.86px;
@@ -152,7 +152,7 @@ nav{
 }
 .menu-column{
     width:80%;
-    margin-left: -0. 5vh;
+    margin-left: -3. 5vh;
     display:flex;
     justify-content: space-between;
 }
