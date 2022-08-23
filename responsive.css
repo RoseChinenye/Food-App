@@ -51,7 +51,7 @@ nav{
 
 .burger{
     display: block;
-    margin: 0 -31vh 0 -10vh;
+    margin: 0 -25vh 0 -10vh;
 }
 .burger.active .bar:nth-child(2){
     opacity: 0;
@@ -152,7 +152,7 @@ nav{
 }
 .menu-column{
     width:100%;
-    margin-left: -1vh;
+    margin-left: -5.7vh;
     display:flex;
     justify-content: space-between;
 }
